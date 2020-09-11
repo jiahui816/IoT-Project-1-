@@ -1,0 +1,453 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>CloudDataManager docs &mdash; Internet of Things 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Encode docs" href="Encode.html" />
+    <link rel="prev" title="Welcome to Group 15 documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Internet of Things
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">CloudDataManager docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Encode.html">Encode docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Capture.html">Capture docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Recognise.html">Recognise docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database_utils.html">DatabaseUtils docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DatabaseManager.html">DatabaseManager docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EventManager.html">EventManager docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Master.html">Master docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PasswordEncryptor.html">PasswordEncryptor docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TakeInput.html">TakeInput docs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="VoiceSearch.html">VoiceSearch docs</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Internet of Things</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>CloudDataManager docs</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/CloudDataManager.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-CloudDataManager">
+<span id="clouddatamanager-docs"></span><h1>CloudDataManager docs<a class="headerlink" href="#module-CloudDataManager" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="CloudDataManager.CloudDataManager">
+<em class="property">class </em><code class="descclassname">CloudDataManager.</code><code class="descname">CloudDataManager</code><span class="sig-paren">(</span><em>connection=None</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>This class show the details of the implementation of cloud database.</p>
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.checkBookBorrowedTable">
+<code class="descname">checkBookBorrowedTable</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.checkBookBorrowedTable" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>This function is used to check a table for books have been borrowed.</dt><dd><dl class="simple">
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.checkBookStatus">
+<code class="descname">checkBookStatus</code><span class="sig-paren">(</span><em>bookID</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.checkBookStatus" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>This function is used to check the selected book’ status.</dt><dd><dl>
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+<p>param2:Book ID</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.checkBookTable">
+<code class="descname">checkBookTable</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.checkBookTable" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>This function is used to check and create a Book table if not exists.</dt><dd><dl class="simple">
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.checkLmsUserTable">
+<code class="descname">checkLmsUserTable</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.checkLmsUserTable" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>This function is used to create a User table if not exists in Lms.</dt><dd><dl class="simple">
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.close" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>This function is used to close to the database connection.</dt><dd><dl class="simple">
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.getAllBook">
+<code class="descname">getAllBook</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.getAllBook" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>This function is used to get books’ information.</dt><dd><dl class="simple">
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.getAllBookIdListUserBorrowed">
+<code class="descname">getAllBookIdListUserBorrowed</code><span class="sig-paren">(</span><em>userName</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.getAllBookIdListUserBorrowed" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>This function is used to list the books ID which are borrowed by User.</dt><dd><dl>
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+<p>param2:User Name</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.getAllUser">
+<code class="descname">getAllUser</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.getAllUser" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>This function is used to receive users’ information.</dt><dd><dl class="simple">
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.getBookID">
+<code class="descname">getBookID</code><span class="sig-paren">(</span><em>bookName</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.getBookID" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>This function is used to get book’s ID.</dt><dd><dl>
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+<p>param2:Book Name</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.getBookName">
+<code class="descname">getBookName</code><span class="sig-paren">(</span><em>bookID</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.getBookName" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>This function is used to get book’s name.</dt><dd><dl>
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+<p>param2:Book ID</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.getBookQuantity">
+<code class="descname">getBookQuantity</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.getBookQuantity" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>This function is used to get the selected books’ quantity.</dt><dd><dl class="simple">
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.getEid">
+<code class="descname">getEid</code><span class="sig-paren">(</span><em>userName</em>, <em>bookId</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.getEid" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>This function is used to get book’s name.</dt><dd><dl>
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+<p>param2:User name</p>
+<p>param3:Book ID</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.getUserID">
+<code class="descname">getUserID</code><span class="sig-paren">(</span><em>userName</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.getUserID" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>This function is used to get user’s ID.</dt><dd><dl>
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+<p>param2:User name</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.insertBookBorrowed">
+<code class="descname">insertBookBorrowed</code><span class="sig-paren">(</span><em>lmsUserID</em>, <em>bookID</em>, <em>borrowDate</em>, <em>eid</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.insertBookBorrowed" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>This function is used to record the books borrowed by user.</dt><dd><dl>
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+<p>param2:User Id in lms</p>
+<p>param3:Borrowed book ID</p>
+<p>param3:Borrowed date</p>
+<p>param4:Google calendar event ID</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.insertLmsUser">
+<code class="descname">insertLmsUser</code><span class="sig-paren">(</span><em>userName</em>, <em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.insertLmsUser" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>This function insert user name and name into User table.</dt><dd><dl>
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+<p>param2:The current user name</p>
+<p>param3:Name</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.printABookDetail">
+<code class="descname">printABookDetail</code><span class="sig-paren">(</span><em>bookID</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.printABookDetail" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>This function is used to print book’s information.</dt><dd><dl>
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+<p>param2:Book ID</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.returnBook">
+<code class="descname">returnBook</code><span class="sig-paren">(</span><em>eId</em>, <em>returnDate</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.returnBook" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>This function is used to update the books’ information that had been returned.</dt><dd><dl>
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+<p>param2:Google calendar event ID</p>
+<p>param3:Book returned date</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="CloudDataManager.CloudDataManager.searchBook">
+<code class="descname">searchBook</code><span class="sig-paren">(</span><em>dataType</em>, <em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#CloudDataManager.CloudDataManager.searchBook" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>This function is used to serch the current existed book in database.</dt><dd><dl>
+<dt>Args:</dt><dd><p>param1:Current Object</p>
+<p>param2:Data Type of the serched book</p>
+<p>param3:book’s data</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Encode.html" class="btn btn-neutral float-right" title="Encode docs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Group 15 documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Group15
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<html>
+ <head>
+	<title>Update Book</title>
+         	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ 		<style>
+			body {
+				text-align:center;
+			}
+		</style>
+ </head>
+  <body>
+		<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="#">Smart Library Group 15</a>
+			    </div>
+			    <ul class="nav navbar-nav">
+			      <li class="active"><a href="/">Home</a></li>
+			      <li><a href="/">View All Books</a></li>
+			      <li><a href="/add">Add A Book</a> </li>
+			      <li><a href="/update">Update A Book</a></li>
+			      <li><a href="/delete">Delete A Book</a></li>
+			      <li><a href="/report">Generate Reports</a></li>
+			      <li><a href="/logout">Log Out</a></li>
+			    </ul>
+			  </div>
+		</nav>
+	    <h1>Update book</h1>
+		
+	    <form method="POST" action="/update">
+		<fieldset>
+			<legend>Update Book Information</legend>
+			<p>BookID</p>
+		        <input type="text" name="BookID">
+			<br>
+			<p>Title</p>
+		        <input type="text" name="Title">
+			<br>
+			<p>Author</p>
+			<input type="text" name="Author">
+			<br>
+			<p>Published Date</p>
+			<input type="date" name="PublishedDate">
+			<br>
+			<br>
+	        	<input type="submit" value="Update">
+		</fieldset>
+	    </form>
+	</body>
+	<div class="jumbotron text-center" style="margin-bottom:0">
+  		<p>Created By PIoT Assignment2 Group15</p>
+		<br>
+		<p>Xinghao Li | Jinglai Li | Ziqi Huang | Jia Hui Liou</p>
+	</div>
+</html>
